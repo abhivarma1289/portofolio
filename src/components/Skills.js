@@ -3,11 +3,12 @@ import React from "react";
 import html from "../assets/experience/html.png";
 import css from "../assets/experience/css.png";
 import javascript from "../assets/experience/javascript.png";
-import reactImage from "../assets/experience/react.png";
-import nextjs from "../assets/experience/nextjs.png";
-import graphql from "../assets/experience/graphql.png";
+import reactJs from "../assets/experience/react.png";
+import NodeJs from "../assets/experience/node.png";
+import java from "../assets/experience/jaava.png";
 import github from "../assets/experience/github.png";
-import tailwind from "../assets/experience/tailwind.png";
+import cpp from "../assets/experience/ISO_C++_Logo.png";
+import python from "../assets/experience/python.jpeg";
 
 const Skills = () => {
   const techs = [
@@ -31,32 +32,38 @@ const Skills = () => {
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
+      src: reactJs,
+      title: "ReactJS",
       style: "shadow-blue-600",
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
+      src: cpp,
+      title: "cplusplus",
       style: "shadow-sky-400",
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
+      src: NodeJs,
+      title: "NodeJS",
       style: "shadow-white",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
+      src: java,
+      title: "Java",
       style: "shadow-pink-400",
     },
     {
       id: 8,
       src: github,
       title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: python,
+      title: "Python",
       style: "shadow-gray-400",
     },
   ];
